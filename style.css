@@ -63,11 +63,13 @@ article {
   padding: 2em;
 }
 
-article > section:not(:last-child) {
+article > section:not(:last-child),
+article > header:not(:last-child) {
   margin-bottom: 2em;
 }
 
-article > section > :nth-child(1) {
+article > section > :nth-child(1),
+article > header > :nth-child(1) {
   margin-bottom: 0.5em;
 }
 /* Text Section */
