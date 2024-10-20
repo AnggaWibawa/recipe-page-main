@@ -13,33 +13,45 @@
     <title>Frontend Mentor | Recipe page</title>
   </head>
   <body>
+    <!-- Main content -->
     <main>
-      <figure>
-        <img src="./assets/images/image-omelette.jpeg" alt="Omelette Picture" />
-      </figure>
+      <!-- Recipe Image -->
+      <img
+        src="./assets/images/image-omelette.jpeg"
+        alt="A perfectly cooked omelette served on a white plate"
+      />
+      <!-- Recipe Article -->
       <article>
-        <section class="recipe-header">
+        <!-- Recipe Header -->
+        <header class="recipe-header">
           <h1>Simple Omelette Recipe</h1>
           <p>
             An easy and quick dish, perfect for any meal. This classic omelette
             combines beaten eggs cooked to perfection, optionally filled with
             your choice of cheese, vegetables, or meats.
           </p>
-        </section>
+        </header>
+
+        <!-- Preparation Time -->
         <section class="preparation">
-          <h3>Preparation time</h3>
+          <h2>Preparation time</h2>
           <ul>
             <li>
-              <p><b>Total:</b> Approximately 10 minutes</p>
+              <p>
+                <b>Total:</b> Approximately
+                <time datetime="PT10M">10 minutes</time>
+              </p>
             </li>
             <li>
-              <p><b>Preparation:</b> 5 minutes</p>
+              <p><b>Preparation:</b> <time datetime="PT5M">5 minutes</time></p>
             </li>
             <li>
-              <p><b>Cooking:</b> 5 minutes</p>
+              <p><b>Cooking:</b> <time datetime="PT5M">5 minutes</time></p>
             </li>
           </ul>
         </section>
+
+        <!-- Ingredients Section -->
         <section class="ingredients">
           <h2>Ingredients</h2>
           <ul>
@@ -54,14 +66,16 @@
             </li>
           </ul>
         </section>
+
+        <!-- Instructions Section -->
         <section class="instructions">
           <h2>Instructions</h2>
           <ol>
             <li>
               <p>
-                <b>Instructions Beat the eggs:</b> In a bowl, beat the eggs with
-                a pinch of salt and pepper until they are well mixed. You can
-                add a tablespoon of water or milk for a fluffier texture.
+                <b>Beat the eggs:</b> In a bowl, beat the eggs with a pinch of
+                salt and pepper until they are well mixed. You can add a
+                tablespoon of water or milk for a fluffier texture.
               </p>
             </li>
             <li>
@@ -99,6 +113,8 @@
             </li>
           </ol>
         </section>
+
+        <!-- Nutrition Information -->
         <section class="nutritions">
           <h2>Nutrition</h2>
           <p>
@@ -108,40 +124,34 @@
           <section class="nutritions-container">
             <ul>
               <li>
-                <section>
-                  <p>Calories</p>
-                  <p>277kcal</p>
-                </section>
+                <p>Calories</p>
+                <p>277kcal</p>
               </li>
               <li>
-                <section>
-                  <p>Carbs</p>
-                  <p>0g</p>
-                </section>
+                <p>Carbs</p>
+                <p>0g</p>
               </li>
               <li>
-                <section>
-                  <p>Protein</p>
-                  <p>20g</p>
-                </section>
+                <p>Protein</p>
+                <p>20g</p>
               </li>
               <li>
-                <section>
-                  <p>Fat</p>
-                  <p>22g</p>
-                </section>
+                <p>Fat</p>
+                <p>22g</p>
               </li>
             </ul>
           </section>
         </section>
       </article>
     </main>
-    <div>
+
+    <!-- Footer -->
+    <footer>
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by
       <a href="https://github.com/AnggaWibawa" target="_blank">AnggaWibawa</a>.
-    </div>
+    </footer>
   </body>
 </html>
