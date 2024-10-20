@@ -51,7 +51,7 @@ h2 {
 }
 
 /* Recipe card */
-#recipe-card {
+main {
   background-color: var(--white);
   display: flex;
   flex-direction: column;
@@ -62,25 +62,25 @@ h2 {
 /* Recipe card */
 
 /* Text Section */
-.text-section {
+article {
   padding: 2em;
 }
 
-.text-section > section:not(:last-child) {
+article > section:not(:last-child) {
   margin-bottom: 2em;
 }
 
-.text-section > section > :nth-child(1) {
+article > section > :nth-child(1) {
   margin-bottom: 0.5em;
 }
 /* Text Section */
 
 /* Img Container */
-.img-container {
+figure {
   width: 100%;
 }
 
-.img-container img {
+figure img {
   display: block;
   max-width: 100%;
   object-fit: contain;
@@ -198,7 +198,7 @@ h2 {
     background-color: var(--stone-150);
   }
 
-  #recipe-card {
+  main {
     width: 25em;
     background-color: var(--white);
     border-radius: 1em;
@@ -206,18 +206,18 @@ h2 {
     padding: 2em 2em 0 2em;
   }
 
-  .text-section {
+  article {
     padding: 2em 0;
   }
 
-  .img-container {
+  figure {
     overflow: hidden;
     border-radius: 0.5em;
   }
 }
 
 @media screen and (min-width: 765px) {
-  #recipe-card {
+  main {
     width: 35em;
   }
 }
